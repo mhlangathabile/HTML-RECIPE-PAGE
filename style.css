@@ -147,3 +147,42 @@ a {
 a:hover {
   color: var(--secondary-color);
 }
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .slogan {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  body {
+    padding: 0px;
+    font-size: 13px;
+  }
+
+  li {
+    margin: 5px;
+  }
+
+  .Ingredients {
+    display: contents;
+  }
+
+  .IngredientsImage {
+    width: 150px;
+    height: 175px;
+    align-items: center;
+  }
+
+  .CarrotCakeImage {
+    width: 200px;
+    height: 225px;
+    padding: 0px;
+  }
+}
