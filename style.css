@@ -150,7 +150,7 @@ a:hover {
 
 @media (max-width: 450px) {
   h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .slogan {
@@ -163,7 +163,7 @@ a:hover {
 
   body {
     padding: 0px;
-    font-size: 13px;
+    font-size: 11px;
   }
 
   li {
@@ -175,7 +175,7 @@ a:hover {
   }
 
   .IngredientsImage {
-    width: 150px;
+    width: 130px;
     height: 175px;
     align-items: center;
   }
@@ -184,5 +184,15 @@ a:hover {
     width: 200px;
     height: 225px;
     padding: 0px;
+  }
+
+  .navigation ul {
+    float: none;
+    width: 100%;
+    display: block;
+  }
+
+  .navigation li {
+    padding: 0;
   }
 }
